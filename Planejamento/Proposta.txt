@@ -1,0 +1,22 @@
+Dupla:
+Waldir Santos
+Daniel Wood
+
+PROPOSTA
+
+Nome:
+ “Body Cleaner”
+
+
+Ideia central (inicial):
+
+Jogo no estilo 2D clássico, onde o jogador terá que sobreviver a rodadas de inimigos tentando atacar. O jogo acaba quando você passa pela 10a rodada. 
+O jogo acontece dentro de um corpo humano, mais especificamente dentro da corrente sanguínea. 
+Os inimigos são patógenos (microorganismos que causam doença). Você elimina os inimigos digitando seus nomes. 
+O jogador elimina os seus adversários utilizando-se de uma arma que dispara glóbulos brancos e anticorpos. 
+O jogador tem três vidas. Ele perde uma vida a cada patógeno que conseguir alcançar. 
+O jogador poderá recuperar vidas ao longo do jogo, desde que consiga pegar objetos específicos espalhados pela tela que aparecem a cada 3 rodadas, porém, o limite é três vidas.
+O jogo termina quando o jogador perder todas as suas vidas ou quando eliminar todos os seus adversários, que surgirão ao longo do jogo.
+
+
+O jogo será inspirado nesse projeto: (https://zty.pe/)
