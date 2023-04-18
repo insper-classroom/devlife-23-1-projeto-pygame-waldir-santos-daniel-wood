@@ -1,0 +1,28 @@
+- == o que codar
+. == objetos
+
+
+
+
+Tela Inicial:
+- Novo Jogo
+- Ranking jogadores
+- Configurações 
+        - Música
+        - Som
+        - Voltar
+- Creditos
+        . Nomes
+        . Música
+        . Imagens
+        - Voltar
+. Fundo (Corpo Humano - corrente sanguinia)
+. Nome (Body Cleaner)
+
+Tela Inicio Jogo: 
+- Explicação do jogo e como jogar
+- Continuar
+- Voltar
+
+
+Primeira Rodada:
