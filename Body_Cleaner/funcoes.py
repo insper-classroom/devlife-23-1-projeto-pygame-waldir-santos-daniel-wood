@@ -7,7 +7,6 @@ def inicializa():
 
     window_width = 1200
     window_height = 680
-    # window_height = int(window_width*0.6)
 
     window = pygame.display.set_mode((window_width, window_height))
     pygame.display.set_caption('BODY CLEANER')
@@ -16,7 +15,12 @@ def inicializa():
     background_jogo_espelhada = pygame.transform.flip(background_jogo, True, False )
     background_jogo_espelhada  = pygame.transform.scale(background_jogo_espelhada, [1200, 680])
 
-    return window, background_jogo_espelhada
+
+    objetos = {}
+    objetos['globulo_branco'] = pygame.image.load('img/globulo_branco.jpg')
+    objetos['globulo_branco'] = pygame.transform.scale(objetos['globulo_branco'], [119//3, 115//3])
+
+    return window, background_jogo_espelhada, objetos
 
 
 def eventos():
@@ -32,20 +36,22 @@ def eventos():
     pygame.quit()
                 
 
-
-def desenho(window, background_jogo_espelhada):
+def desenho(window, background_jogo_espelhada, objetos):
     
     window.blit(background_jogo_espelhada, (0, 0))
-    pygame.display.flip()
+    # pygame.display.flip()
+    
+    window.blit(objetos['globulo_branco'], (0, 320))
     pygame.display.update()
     
+  
+        
 
-
-def loop_jogo(window, background_jogo_espelhada):
+def loop_jogo(window, background_jogo_espelhada, objetos):
     while eventos():
-        desenho(window, background_jogo_espelhada)
+        desenho(window, background_jogo_espelhada, objetos)
 
     
 if __name__ == '__main__':
     init = inicializa()
-    loop_jogo(init[0], init[1])
+    loop_jogo(init[0], init[1], init[2])
