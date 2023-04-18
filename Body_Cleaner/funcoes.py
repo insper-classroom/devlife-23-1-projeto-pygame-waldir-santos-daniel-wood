@@ -14,7 +14,7 @@ def inicializa():
     
     background_jogo = pygame.image.load('img/blood_stream.jpg')
     background_jogo_espelhada = pygame.transform.flip(background_jogo, True, False )
-    background_jogo_espelhada  = pygame.transform.scale(background_jogo, [1200, 680])
+    background_jogo_espelhada  = pygame.transform.scale(background_jogo_espelhada, [1200, 680])
 
     return window, background_jogo_espelhada
 
