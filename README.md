@@ -8,6 +8,9 @@ Lembre-se de colocar algumas imagens do jogo no seu README.
 
 **IMPORTANTE:** coloque o nome de todos os membros do grupo neste documento e na página do jogo.
 
+Waldir Santos
+Daniel Wood
+
 Além disso, a página do jogo deve ser feita dentro da pasta `docs`.
 
 APAGUE ESSE CONTEÚDO E SUBSTITUA PELO SEU PRÓPRIO README!
