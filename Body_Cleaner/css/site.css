@@ -8,6 +8,7 @@ h1, h3{
 }
 
 
-li {
+div {
     text-align: center;
+    font-style: oblique;
 }
